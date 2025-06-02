@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Прогноз погоди</title>
+  <link href="css/style.css" rel="stylesheet">
+  <style>
+    h2 {
+      color: darkblue;
+      font-size: 20px;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    td, th {
+      border: 1px solid #999;
+      padding: 8px;
+      text-align: center;
+    }
+    ul {
+      list-style-type: square;
+    }
+  </style>
+</head>
+<body>
+  <h1 style="color: crimson; text-align: center;">Погода у Львові</h1>
+  <nav class="nav main-bg">
+    <ul class="nav-list">
+      <li><a href="#">Головна</a></li>
+      <li><a href="#">Прогноз</a></li>
+      <li><a href="#">Контакти</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+    <aside class="sidebar card-bg">
+      <h2>Місто</h2>
+      <ul>
+        <li>Львів</li>
+        <li>Київ</li>
+        <li>Харків</li>
+      </ul>
+    </aside>
+    <main class="main">
+      <h2>Прогноз на день</h2>
+      <table>
+        <tr>
+          <th>Час</th>
+          <th>Темп., °C</th>
+          <th>Тиск, мм</th>
+          <th>Вітер</th>
+          <th>Вологість, %</th>
+        </tr>
+        <tr>
+          <td>06:00</td>
+          <td>+5</td>
+          <td>726</td>
+          <td>ПнЗ 4</td>
+          <td>93</td>
+        </tr>
+        <tr>
+          <td>09:00</td>
+          <td>+6</td>
+          <td>728</td>
+          <td>Пн 5</td>
+          <td>81</td>
+        </tr>
+        <tr>
+          <td>12:00</td>
+          <td>+6</td>
+          <td>729</td>
+          <td>Пн 5</td>
+          <td>81</td>
+        </tr>
+        <tr>
+          <td>15:00</td>
+          <td>+6</td>
+          <td>730</td>
+          <td>ПнЗ 4</td>
+          <td>93</td>
+        </tr>
+      </table>
+    </main>
+  </div>
+</body>
+</html>
